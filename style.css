@@ -1,0 +1,91 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+
+figcaption {
+    color: red;
+    
+}
+
+form {
+    width: 80vw;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 9px red;
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+  .user input {
+    width: 90%;
+    padding: 3.5%;
+    border: 0;
+    border-radius: 0;
+    outline-color: #193;
+    outline-offset: 1.2px;
+    caret-color: darkgreen;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+    margin-left: 55px;
+}
+
+.btn {
+    width: 60%;
+    height: 35px;
+    margin: 5px;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.user{
+    border: 2.5px solid #193;
+    display: flex;
+    z-index: 99999;
+    border-radius: 5px;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    width: 70%;
+}
+
+.wrapper {
+    z-index: 999999;
+    background-color: #193;
+    min-width: 10%;
+    max-width: 10%;
+    display: grid;
+    place-items: center;
+}
+
+
+@media screen and (max-width: 700px){
+ form .all_inputs div{
+     width: 50%;
+ }
+    
+        
